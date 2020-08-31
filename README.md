@@ -36,7 +36,7 @@ https://yourdomain.com/#user-id-here  (``user-id-here`` is the same id as posted
 ![map with dots screenshot](https://github.com/technomada/basic-tracker/raw/master/screenshot.png)
 
 
-## Additional
+### Additional
 
 https://www.openstreetmap.org/
 
