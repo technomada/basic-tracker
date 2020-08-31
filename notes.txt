@@ -1,0 +1,55 @@
+Simple map of where you are.
+
+next: 	- make docker image
+	- upload git (make git)
+	- auto publish to dockerhub
+
+https://docs.mapbox.com/help/glossary/access-token/
+example app
+https://bk.gnarf.org/creativity/bigbrothergps/
+-- upg in docs: show what to post.how/
+https://play.google.com/store/apps/details?id=com.mendhak.gpslogger
+https://play.google.com/store/apps/details?id=org.gnarf.bigbrother.gps
+https://github.com/mendhak/gpslogger/
+
+> upg: compile locally android client
+> upg: option to use browser gps to report.
+	./record
+
+upg: depending on who, shows different things.
+
+upg: add starter readme.MD
+
+Status
+	Busy/Free
+
+Location Nickname
+	Work
+	Home
+	Shopping
+	Between Places (Traveling)
+	School
+	Visiting
+	Church
+
+Map
+	Various resolutions
+
+Optional.. roughly say when this info was accurate.
+
+
+upg: when near you, or on way to you possiblly.
+
+upg: allow anyone to track in (from website menu) -- using browser gps.  (optinal link to add big brother) .. would be cool/interesting if trak app could host it's own sideload native app, and/or links to app store. (nice if work with a standard post, like big bro even?) .. this a good flutter test.. are there docker containers for flutter devlopment?
+
+No Update [ old or none that matches your auths ]
+
+==========
+
+$ MAPKEY="pk.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" && node server.js
+
+2020.08.30
+	- added env var for map key
+	- added config loading dynamic for browser client (mapped to config env vars.)
+	- filter data by user id (when pulling points)
+	- delete points older than 48 hours.
