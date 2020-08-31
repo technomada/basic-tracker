@@ -1,11 +1,11 @@
-# basic-tracker
-Privately track your geographical locations.
+# Tracker — Basic Cloud Application Series
+Track your geographical location.
 
 How to use:
 ```
-$ sudo docker run -d --env MAPKEY="your-map-box-key-hre" -p 8000:3000 technomada/basic-tracker
+$ sudo docker run -d --env MAPKEY="your-map-box-key-here" -p 8000:3000 technomada/basic-tracker
 ```
-
+Get a free map box key: https://docs.mapbox.com/help/glossary/access-token/  Use this token in "your-map-box-key-here".
 
 ### Explainer
 This premise of this application is that there are times you'd like to track your location or your friend's or familly but you wish to do so without sharing that location info with a public service.  With tracker your location is transmitted (using a mobile app) to your private server and the most recent 5 points are plotted on an open (not commercial) map.
