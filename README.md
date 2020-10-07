@@ -1,6 +1,9 @@
 # Tracker — Basic Cloud Application Series
 Track your geographical location.
 
+A [core series](https://github.com/technomada/core) application.
+
+
 **How to use:**
 
 Get a free map box key: [Get Access Token](https://account.mapbox.com/auth/signin/?route-to=%22https://account.mapbox.com/access-tokens/%22)
